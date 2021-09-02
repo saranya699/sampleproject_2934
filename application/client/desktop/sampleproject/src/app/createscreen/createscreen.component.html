@@ -1,0 +1,18 @@
+<h2 class="screen-align">Createscreen</h2>
+<form id="template-iyxi" class="form gp-form-control">
+    <div id="template-ictp" class="form-group">
+        <label id="template-iy1w" class="label">Name</label>
+        <input placeholder="Type here your name" id="template-iuyb"
+        [(ngModel)]="sample.Name" [ngModelOptions]="{standalone: true}" class="input gp-input-text"
+        />
+    </div>
+    <div id="template-iwsk" class="form-group">
+        <label id="template-ipif" class="label">Email</label>
+        <input type="email" placeholder="Type here your email" id="template-iw8r"
+        [(ngModel)]="sample.Email" [ngModelOptions]="{standalone: true}" class="input gp-input-text"
+        />
+    </div>
+    <div id="template-ibpae" class="form-group">
+        <button type="submit" id="template-iqptp" (click)="GpCreate()" class="button">Send</button>
+    </div>
+</form>
